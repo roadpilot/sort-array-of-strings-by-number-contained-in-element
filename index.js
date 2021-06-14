@@ -18,7 +18,7 @@ const func = (str) => {
       word.includes(num) ? out[num]=word : 0
     })
   })
-  return out
+  return Object.values(out).join(' ')
 }
 
 console.log(func("is2 Thi1s T4est 3a"))
